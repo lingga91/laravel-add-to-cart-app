@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: ./
-    container_name: supplycart_web
+    container_name: add_to_cart_web
     restart: unless-stopped
     working_dir: /var/www/
     volumes:
